@@ -66,9 +66,7 @@ public class CatGridAdapter extends BaseAdapter {
 
         ((TextView) view1.findViewById(R.id.catName)).setText(catList.get(i).getName());
 
-        //Random rand = new Random();
-        //int color = Color.argb(255,rand.nextInt(253),rand.nextInt(255),rand.nextInt(255));
-        //view1.setBackgroundColor(color);
+
 
         return view1;
     }
