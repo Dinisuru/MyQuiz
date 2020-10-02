@@ -10,6 +10,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.daimajia.androidanimations.library.Techniques;
+import com.daimajia.androidanimations.library.YoYo;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
@@ -26,6 +28,8 @@ public class MainActivity extends AppCompatActivity {
 
         title = findViewById(R.id.mainTitle);
         start = findViewById(R.id.mai_startB);
+
+        YoYo.with(Techniques.BounceInUp).duration(5000).playOn(title);
 
         firebaseAuth = FirebaseAuth.getInstance();
 
