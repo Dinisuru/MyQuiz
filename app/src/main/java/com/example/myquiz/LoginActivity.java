@@ -76,7 +76,7 @@ public class LoginActivity extends AppCompatActivity {
 
                                     if(task.isSuccessful()){
                                         //sign in complete
-                                        Toast.makeText(LoginActivity.this,"Logged in Successfull!",Toast.LENGTH_SHORT).show();
+                                        //Toast.makeText(LoginActivity.this,"Logged in Successfull!",Toast.LENGTH_SHORT).show();
                                         Intent intent = new Intent(LoginActivity.this,MainActivity.class);
                                         startActivity(intent);
                                         loadingdialog.dismiss();
