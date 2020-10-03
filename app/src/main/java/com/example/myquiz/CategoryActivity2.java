@@ -26,7 +26,7 @@ public class CategoryActivity2 extends AppCompatActivity {
     private GridView catGrid;
     private FirebaseAuth firebaseAuth;
     private long backPressedTime;
-
+  //supun
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
